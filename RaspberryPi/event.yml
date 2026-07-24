@@ -1,0 +1,16 @@
+#RaspberryPiとスマホ間の通信に用いるjsonの構造
+#危険運転を検知した時に送信される
+{
+    #危険運転の有無
+    #trueになった物のみ送信される
+    "s_braked": false, #急ブレーキ
+    "s_accelerated": false, #急発進
+    "s_steered": false, #急ハンドル
+    "waved": false, #ふらつき
+    "unstable_speed": false, #速度のばらつき
+
+    "x": 0, #縦移動の加速度
+    "z": 0, #横移動の加速度
+
+    "date": "YY/MM/DD-hh:mm:ss", #日時
+}

@@ -10,7 +10,7 @@
     "unstable_speed": false, #速度のばらつき
 
     "x": 0, #縦移動の加速度
-    "z": 0, #横移動の加速度
+    "y": 0, #横移動の加速度
 
     "date": "YY/MM/DD-hh:mm:ss", #日時
 }
